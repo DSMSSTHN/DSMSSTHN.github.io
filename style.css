@@ -8,8 +8,14 @@ body{
     background-color: #090909;
 }
 .section{
-    margin: 0px 10px 40px 10px;
+    margin: 0px auto 2vh auto;
     background-color: #131313;
+    
+}
+@media only screen and (min-width: 800px) {
+    .section{
+        width: 80vw;
+    }
 }
 .top{
     display: flex;
@@ -43,8 +49,11 @@ body{
     
 }
 .codingImage{
-    width: 50vw;
+    width: 30vw;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
+
 .left{
     text-align: center;
     flex: 1;
@@ -67,7 +76,7 @@ body{
 }
 .farinspaceimage{
     margin: 10px 20px;
-    width: 85vw;
+    width: 85%;
     height: 30vh;
     object-fit: cover;
     border-radius: 25px;
