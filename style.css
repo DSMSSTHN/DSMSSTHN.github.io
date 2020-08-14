@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.section{
+    margin: 0px 10px 40px 10px;
+    background-color: #131313;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.iconImage{
+    width:  50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+.title{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    border-radius: 25px;
+    font-size: 200%;
+}
+
+.image{
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.aboutme, .contact{
+    display: flex;
+    flex-direction: row;
+    
+}
+.codingImage{
+    width: 50vw;
+}
+.left{
+    text-align: center;
+    flex: 1;
+    margin: auto 0px;
+    width: 45vw;
+}
+
+.right{
+    flex: 1;
+    text-align: center;
+    width: 45vw;
+}
+.aboutme > .right{
+    margin-top: 2%;
+}
+.mygames{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.farinspaceimage{
+    margin: 10px 20px;
+    width: 85vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.contactsimage{
+    height: 30vh;
+}
+.contact > .left > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+}
