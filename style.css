@@ -93,3 +93,10 @@ body{
     align-content: space-between;
     text-align: center;
 }
+.farinspacelinks{
+    display: flex;
+    flex-direction: column;
+}
+.farinspacelinks > a{
+    margin-top: 10px;
+}
